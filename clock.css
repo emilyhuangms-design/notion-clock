@@ -16,8 +16,24 @@
   :root {
     --bg: #FFFFFF;
     --text-color: #FFF;
-    --accent-color: #356B00;/*Emily:#bf933d,Mitsuki:#4d7ca7,Lanh:#578163,Hanh:#8967ad*/
+    --accent-color: #000;   /* 預設 */
     --secondary-color: #592F20;
+}
+
+.theme-emily {
+    --accent-color: #BF933D;
+}
+
+.theme-mitsuki {
+    --accent-color: #4D7CA7;
+}
+
+.theme-lanh {
+    --accent-color: #578163;
+}
+
+.theme-hanh {
+    --accent-color: #8967AD;
 }
 
 * {    
