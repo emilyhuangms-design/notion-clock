@@ -1,3 +1,12 @@
+// ===== 根據網址切換 Theme =====
+const params = new URLSearchParams(window.location.search);
+const theme = params.get("theme");
+
+if (theme) {
+    document.body.classList.add(`theme-${theme}`);
+}
+
+// ===== 原本的程式 =====
 function showRealTime(date) {
     const currentDay = document.querySelector('.day');
     const currentMonth = document.querySelector('.month');
