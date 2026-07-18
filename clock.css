@@ -1,16 +1,13 @@
 @font-face {
-    font-family: "DigitalNumbers";
+    font-family: "IntegralCF-Bold";
     src:
-      local("DigitalNumbers"),
-      local("Digital Numbers"),
-      local("Digital Numbers Regular"),
-      local("DigitalNumbers-Regular"),
-      url("fonts/DigitalNumbers-Regular.ttf") format("truetype"),
-      url("fonts/DigitalNumbers-Regular.otf") format("opentype"),
-      url("fonts/DigitalNumbers-Regular.woff") format("woff"),
-      url("fonts/DigitalNumbers-Regular.woff2") format("woff2");
-      font-weight: 400;
-      font-style: normal;
+        local("Integral CF Bold"),
+        local("IntegralCF-Bold"),
+        url("fonts/IntegralCF-Bold.woff2") format("woff2"),
+        url("fonts/IntegralCF-Bold.otf") format("opentype");
+
+    font-weight: 700;
+    font-style: normal;
 }
   
   :root {
@@ -89,7 +86,7 @@ body {
 }
 
 .day, .month, .weekday {
-    font-family: 'Monomaniac One';
+    font-family: "IntegralCF-Bold", sans-serif;
     text-transform: uppercase;
     height: 7rem;
 }
@@ -104,7 +101,7 @@ body {
 }
 
 .minute, .hour, .second {
-    font-family: "DigitalNumbers";
+    font-family:  "IntegralCF-Bold", sans-serif;
     letter-spacing: -0.25rem;
     flex-basis: 30%;
     height: 11rem;
